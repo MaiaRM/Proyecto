@@ -1,0 +1,147 @@
+nav {
+    font-family:'Poppins', sans-serif;
+    color: #EFF5F5;
+    background-color: #00425A;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #EFF5F5;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    color: #181823;
+    text-align: center;
+    background-color: #EFF5F5;
+    position: relative;
+}
+
+section h2 {
+    color: #1F8A70;
+}
+
+section:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #1F8A70;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#quienes-somos {
+    font-family:'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+}
+
+section p {
+    font-family:'Belanosima', sans-serif;
+    text-align: left;
+}
+
+#por-que-elegirnos {
+    font-family:'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+section p {
+    font-family:'Belanosima', sans-serif;
+    text-align: left; 
+}
+
+#propuesta-educativa {
+    font-family:'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.propuesta-educativa { 
+    display: flex;
+    justify-content: space-between;
+} 
+
+section p {
+    font-family:'Belanosima', sans-serif;
+    text-align: left;
+}
+
+#ultimas-noticias {
+    font-family:'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+label, input, textarea {
+    margin: 10px;
+}
+
+button {
+    background-color: #1F8A70;
+    color: #EFF5F5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color:#1F8A70; 
+    color: #EFF5F5;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redes-sociales {
+    font-family:'Poppins', sans-serif;
+    margin-left: 15px;
+    color: #EFF5F5;
+    align-items: center;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+}
+
+.contacto {
+    font-family:'Poppins', sans-serif;
+    margin-left: 15px;
+}
